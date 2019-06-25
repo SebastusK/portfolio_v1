@@ -274,7 +274,6 @@
      text-align: center;
      color: #fff;
      opacity: 0;
-     background: #632881;
      -webkit-transition: all .35s;
      -moz-transition: all .35s;
      transition: all .35s;
@@ -471,9 +470,6 @@
      background: 0 0;
  }
  
- body {
-     webkit-tap-highlight-color: #222;
- }
  
  
  .scroll-top {
