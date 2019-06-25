@@ -261,7 +261,7 @@
  .portfolio-box {
      display: block;
      position: relative;
-     margin: 0 auto;
+     margin: 10px auto;
      max-width: 650px;
  }
  
