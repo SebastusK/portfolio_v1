@@ -33,7 +33,7 @@
  
  a:hover,
  a:focus {
-     color: #12eb98;
+     color: #49f0b0;
  }
  
  h1,
@@ -46,13 +46,13 @@
  }
  
  p {
-     color: #40d6f0;
+     color: #6fe2f7;
      margin-bottom: 20px;
      font-size: 16px;
      line-height: 1.5;
  }
  p:hover {
-    color: #12eb98;
+    color: #5feeb7;
     border-color: rgb(172, 110, 110);
  }
  
