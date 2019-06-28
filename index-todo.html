@@ -17,25 +17,25 @@
              background-repeat: no-repeat; 
              background-size: cover;">
              
-             <nav class="blog-header py-2" style="background-color: #537c9e9c">
+             <nav class="blog-header" style="background-color: #537c9e9c">
                 
-                    <div class="row flex-nowrap align-items-center">
-                    <div class="col-6 text-center d-flex">
-                        <a class="p-2" href="#">Portfolio de Sebasti&aacute;n Emiliano Cardaci Castro</a>
+                    <div class="row">
+                    <div class="col-6 text-center d-flex align-bottom" >
+                        <p class="p-2" style="margin-top: auto; margin-bottom: auto;">Portfolio de Sebasti&aacute;n Emiliano Cardaci Castro</p>
                     </div>
-                    <div class="col-6 d-flex flex-row-reverse">
-                            <nav class="nav d-flex justify-content-between">
-                                <a class="p-2" href="#">Sobre Mí</a>
-                                <a class="p-2" href="./titulos.html">Mi carrera como programador</a>
-                                <a class="p-2" href="./portfolio.html">Portfolio</a>
-                            </nav>
+                    <div class="col-6 d-flex flex-row-reverse align-items-center">
+                            <div class="d-flex justify-content-between">
+                                <p class="p-2" id="sobr" style="margin-top: auto; margin-bottom: auto;">Sobre Mí</p>
+                                <p class="p-2" id="grad" style="margin-top: auto; margin-bottom: auto;">Mi carrera como programador</p>
+                                <p class="p-2" id="port" style="margin-top: auto; margin-bottom: auto;">Portfolio</p>
+                            </div>
                     </div>
                     </div>
                     
                     </nav>
         <div class="row" style="margin-left: 10%; margin-right: 10%; height: 100%;">
                 
-                <div class="row mx-auto justify-content-center">
+                <div class="row mx-auto justify-content-center" id="portfolio">
                     <div class="col-lg-4 col-sm-6">
                         <div class="portfolio-box">
                             <img src="./images/4.png" class="img-fluid">
@@ -99,7 +99,7 @@
                 </div>
             </div>
     
-    <div class="container" style="height: 100%">
+    <div class="container" style="height: 100%" id="carrera">
     <p class="text-center container py-3" style="background-color: #537c9e9c"><a href="">Mi carrera</a></p>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -269,4 +269,22 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
         crossorigin="anonymous"></script>
 <script src="./js/lightbox.js"></script>
+<script>
+ $(document).ready(function(){
+      $("#grad").click(function(){
+        scrollTo("#carrera");
+      });
+    });
+    $(document).ready(function(){
+      $("#port").click(function(){
+        scrollTo("#portfolio");
+      });
+    });
+      function scrollTo(element){
+        $('html,body').animate({
+          scrollTop: $(element).offset().top
+        }, 2000);
+      }
+
+</script>
 </html>

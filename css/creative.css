@@ -46,9 +46,13 @@
  }
  
  p {
+     color: #40d6f0;
      margin-bottom: 20px;
      font-size: 16px;
      line-height: 1.5;
+ }
+ p:hover {
+    color: #12eb98;
  }
  
  .bg-primary {
