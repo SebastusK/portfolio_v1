@@ -53,6 +53,7 @@
  }
  p:hover {
     color: #12eb98;
+    border-color: rgb(172, 110, 110);
  }
  
  .bg-primary {
