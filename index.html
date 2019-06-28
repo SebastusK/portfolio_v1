@@ -1,222 +1,290 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Sebasti&aacute;n Cardaci">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Portfolio de Sebasti&aacute;n Cardaci</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/creative.css">
+    <script src="https://kit.fontawesome.com/858656ac6a.js"></script>
+</head>
+<body style="background-image: url('./images/bg-coding.jpg'); 
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;">
+             
+             <nav class="blog-header" style="background-color: #537c9e9c">
+                
+                    <div class="row">
+                    <div class="col-6 text-center d-flex align-bottom" >
+                        <p class="p-2" style="margin-top: auto; margin-bottom: auto;">Portfolio de Sebasti&aacute;n Emiliano Cardaci Castro</p>
+                    </div>
+                    <div class="col-6 d-flex flex-row-reverse align-items-center">
+                            <div class="d-flex justify-content-between">
+                                <p class="p-2" id="sobr" style="margin-top: auto; margin-bottom: auto;">Sobre Mí</p>
+                                <p class="p-2" id="grad" style="margin-top: auto; margin-bottom: auto;">Mi carrera como programador</p>
+                                <p class="p-2" id="port" style="margin-top: auto; margin-bottom: auto;">Portfolio</p>
+                            </div>
+                    </div>
+                    </div>
+                    
+                    </nav>
+        <div class="row" style="margin-left: 10%; margin-right: 10%; height: 100%;">
+                
+                <div class="row mx-auto justify-content-center" id="portfolio">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <img src="./images/4.png" class="img-fluid">
+                            <div class="portfolio-box-caption" style="background: #6328816c">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                         <i class="fas fa-code" aria-hidden="true"></i> <a href="#portfolio-bancosangre" data-toggle="modal">Desarrollo Web</a>
+                                    </div>
+                                    <div class="project-name">
+                                        <i class="fa fa-link" aria-hidden="true"></i> <a href="https://comunidadcep.com.ar " target="blank">Comunidad CEP</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <img src="./images/5.PNG" class="img-fluid">
+                            <div class="portfolio-box-caption" style="background: #949637a2">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        <i class="fas fa-code" aria-hidden="true"></i> <a href="#portfolio-bancosangre" data-toggle="modal">Desarrollo Web</a>
+                                    </div>
+                                    <div class="project-name">
+                                        <i class="fa fa-link" aria-hidden="true"></i> <a href="http://www.eiza.com.ar" target="blank">EiZa</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                            <div class="portfolio-box">
+                                <img src="./images/6.PNG" class="img-fluid" >
+                                <div class="portfolio-box-caption" style="background: #33552c77">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            <i class="fas fa-code" aria-hidden="true"></i> <a href="#portfolio-bancosangre" data-toggle="modal">Desarrollo Web</a>
+                                        </div>
+                                        <div class="project-name">
+                                            <i class="fa fa-link" aria-hidden="true"></i> <a href="https://cuidemos-mas.sebastusk.xyz" target="blank">Cuidemos Más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                            <div class="portfolio-box">
+                                <img src="./images/7.PNG" class="img-fluid" >
+                                <div class="portfolio-box-caption" style="background: #9c55a58f">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            <i class="fas fa-code" aria-hidden="true"></i> <a href="#portfolio-bancosangre" data-toggle="modal">Desarrollo Web</a>
+                                        </div>
+                                        <div class="project-name">
+                                            <i class="fa fa-link" aria-hidden="true"></i> <a href="https://incubasoft.96.lt" target="blank">IncubaSoft</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>                
+                </div>
+            </div>
+    
+    <div class="container" style="height: 100%" id="carrera">
+    <p class="text-center container py-3" style="background-color: #537c9e9c"><a href="">Mi carrera</a></p>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner" style="padding-top: 50px; padding-bottom: 30px; margin-top: 30px;">
+      
+      <div class="carousel-item active">
 
-    <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
 
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+                
+                  <a href="./images/certiEDITphpPOO.png" data-lightbox="image-1"><img class="img-fluid" style="max-width: auto; height: auto;" src="./images/certiEDITphpPOO.png"></a>
+                </a>
+            </div>
+          </div>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-  <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-12 text-center">
-        <a class="blog-header-logo text-dark" href="#">Portfolio de Sebasti&aacute;n Emiliano Cardaci Castro</a>
       </div>
-    </div>
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          <a class="p-2 text-muted" href="#">Proyectos</a>
-          <a class="p-2 text-muted" href="./titulos.html">Mi carrera como programador</a>
-          <a class="p-2 text-muted" href="./portfolio.html">Portfolio</a>
-          <a class="p-2 text-muted" href="#">Travel</a>
-        </nav>
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+              <a href="./images/certiEDITphpmysql.png" data-lightbox="image-1"><img class="card-img-top" src="./images/certiEDITphpmysql.png"
+                alt="Card image cap"></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
+
       </div>
-  </header>
+      <div class="carousel-item">
 
-  <!--<div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">Proyectos</a>
-      <a class="p-2 text-muted" href="./titulos.html">Mi carrera como programador</a>
-      <a class="p-2 text-muted" href="./portfolio.html">Portfolio</a>
-      <a class="p-2 text-muted" href="#">Travel</a>
-    </nav>
-  </div>-->
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
 
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+              <a href="./images/certiParadigmaObjEDIT.png>" data-lightbox="image-1"></a><img class="card-img-top" src="./images/certiParadigmaObjEDIT.png"
+                alt="Card image cap"></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+              <a href="./images/certiEDITandroid.png" data-lightbox="image-1"><img class="card-img-top" src="./images/certiEDITandroid.png"
+                alt="Card image cap"></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+              <a href="./images/certiEDITandroidAvan.png" data-lightbox="image-1"><img class="card-img-top" src="./images/certiEDITandroidAvan.png"
+                alt="Card image cap"></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4">
+            
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+            <div class="mb-2">
+              <a href="./images/certiEDITandroidResponsive.png" data-lightbox="image-1"><img class="card-img-top" src="./images/certiEDITandroidResponsive.png"
+                alt="Card image cap"></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 clearfix  ">
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-  <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-  </div>
+  <br>
+    <br>
+  <div class="row align-items-center">
+        <div class="col-lg-4">
+          <a href="./images/certiProgSmata.png" data-lightbox="image-1"><img src="./images/certiProgSmata.png" alt="certiProgSmata" class="img-fluid"></a>
+          <!-- <img src="./images/certiProgSmata.png" alt="certiProgSmata" class="img-fluid"> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="./images/certiBDSmata.png" data-lightbox="image-1"><img src="./images/certiBDSmata.png" alt="certiBDSmata" class="img-fluid"></a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="./images/certiIntroJavaSmata.png" data-lightbox="image-1"><img src="./images/certiIntroJavaSmata.png" alt="certiIntroJavaSmata" class="img-fluid"> </a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4"><a href="./images/certiTecnicasSmata.png" data-lightbox="image-1"><img src="./images/certiTecnicasSmata.png" alt="certiTecnicasSmata" class="img-fluid"></a></div>
+      </div><!-- /.row -->
 </div>
 
-<main role="main" class="container">
-  <div class="row">
-    <div class="col-md-8 blog-main">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
-        From the Firehose
-      </h3>
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-        <hr>
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
-          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <h2>Heading</h2>
-        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        <pre><code>Example code block</code></pre>
-        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <ul>
-          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-          <li>Donec id elit non mi porta gravida at eget metus.</li>
-          <li>Nulla vitae elit libero, a pharetra augue.</li>
-        </ul>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-        <ol>
-          <li>Vestibulum id ligula porta felis euismod semper.</li>
-          <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-          <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-        </ol>
-        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-      </div><!-- /.blog-post -->
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">Another blog post</h2>
-        <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
-          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      </div><!-- /.blog-post -->
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">New feature</h2>
-        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <ul>
-          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-          <li>Donec id elit non mi porta gravida at eget metus.</li>
-          <li>Nulla vitae elit libero, a pharetra augue.</li>
-        </ul>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-      </div><!-- /.blog-post -->
-
-      <nav class="blog-pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-      </nav>
-
-    </div><!-- /.blog-main -->
-
-    <aside class="col-md-4 blog-sidebar">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-      </div>
-
-      <div class="p-4">
-        <h4 class="font-italic">Archives</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
-        </ol>
-      </div>
-
-      <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
-    </aside><!-- /.blog-sidebar -->
-
-  </div><!-- /.row -->
-
-</main><!-- /.container -->
-
-<footer class="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
-</footer>
 </body>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+<script src="./js/lightbox.js"></script>
+<script>
+ $(document).ready(function(){
+      $("#grad").click(function(){
+        scrollTo("#carrera");
+      });
+    });
+    $(document).ready(function(){
+      $("#port").click(function(){
+        scrollTo("#portfolio");
+      });
+    });
+      function scrollTo(element){
+        $('html,body').animate({
+          scrollTop: $(element).offset().top
+        }, 2000);
+      }
+
+</script>
 </html>
