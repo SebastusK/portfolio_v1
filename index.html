@@ -46,14 +46,16 @@
                     <div class="col-6 d-flex flex-row-reverse align-items-center">
                             <div class="d-flex justify-content-between">
                                 <p class="p-2" id="sobr" style="margin-top: auto; margin-bottom: auto;">Sobre Mí</p>
-                                <p class="p-2" id="grad" style="margin-top: auto; margin-bottom: auto;">Mi carrera como programador</p>
-                                <p class="p-2" id="port" style="margin-top: auto; margin-bottom: auto;">Portfolio</p>
+                                <p class="p-2" id="grad2" style="margin-top: auto; margin-bottom: auto;">Mi carrera como programador</p>
+                                <p class="p-2" id="port2" style="margin-top: auto; margin-bottom: auto;">Portfolio</p>
                             </div>
                     </div>
                     </div>
                     
                     </nav>
-        <div class="row" style="margin-left: 10%; margin-right: 10%; height: 100%;">
+
+                    
+        <div class="row" style="margin-left: 10%; margin-right: 10%; height: 100%; margin-top: 3%;">
                 
                 <div class="row mx-auto justify-content-center" id="portfolio">
                     <div class="col-lg-4 col-sm-6">
@@ -340,7 +342,16 @@
       $("#port").click(function(){
         scrollTo("#portfolio");
       });
+      $("#grad2").click(function(){
+        scrollTo("#carrera");
+      });
     });
+    $(document).ready(function(){
+      $("#port2").click(function(){
+        scrollTo("#portfolio");
+      });
+    });
+    
       function scrollTo(element){
         $('html,body').animate({
           scrollTop: $(element).offset().top
